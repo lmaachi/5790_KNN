@@ -3,9 +3,13 @@
 In this assignment, I have implemented a K-Nearest Neighbors (KNN) classifier for spam detection. The KNN algorithm is applied with various values of 'k' on datasets provided in the 'spam_train.csv' and 'spam_test.csv' files. The code includes functions for data processing, feature selection, and KNN prediction with and without z-score normalization. It evaluates the classifier's accuracy and provides visualization of the results.
 # Installation
 To run this code, it is recommended to use the Spyder IDE, which can be downloaded via Anaconda. Ensure that you have the following Python libraries installed:
+
 • pandas
+
 • numpy
+
 • matplotlib
+
 # Usage
 ## Functions
 `knn_prediction_without_norm(df_name)`
